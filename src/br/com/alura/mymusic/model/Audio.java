@@ -4,7 +4,7 @@ public class Audio {
     private String title;
     private int totalReproduced;
     private int totalLike;
-    private double classification;
+    private int classification;
 
     public void setTitle(String title) {
         this.title = title;
@@ -18,7 +18,7 @@ public class Audio {
     public int getTotalLike() {
         return totalLike;
     }
-    public double getClassification() {
+    public int getClassification() {
         return classification;
     }
     public void like(){
